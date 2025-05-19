@@ -1,0 +1,15 @@
+{
+  "name": "be-task-management",
+  "version": "1.0.0",
+  "description": "A Simple RESTful web service to showcase task management using Node JS and Mongo Db containerized using docker compose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
