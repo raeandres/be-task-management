@@ -1,11 +1,15 @@
 import express from "express";
+import routes from "./src/routes/userRoute.js";
 const app = express();
 
 const port = process.env.PORT || 4000;
 
+app.use(express.json());
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
+
+routes(app);
 
 
 app.listen(port, () => {
